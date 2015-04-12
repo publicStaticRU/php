@@ -1,3 +1,5 @@
+<?php
+
 function insertionSort($mas, $masCount)
 {
     for($i = 1; $i < $masCount; $i++)
@@ -16,3 +18,6 @@ function insertionSort($mas, $masCount)
     
     return $mas;
 }
+
+
+?>
